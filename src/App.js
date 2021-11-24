@@ -1,10 +1,13 @@
 
 import './App.css';
-import PersonList from './components/PersonList';
+import InlineStyle from './components/InlineStyle';
+import Stylesheet from './components/Stylesheet';
+// import PersonList from './components/PersonList';
 // import NameList from './components/NameList';
 // import UserGreeting from './components/UserGreeting';
 // import ParentComponent from './components/ParentComponent';
 // import EventBind from './components/EventBind';
+
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
      {/* <ParentComponent /> */}
      {/* <UserGreeting /> */}
      {/* <NameList/> */}
-     <PersonList />
+     {/* <PersonList /> */}
+     <Stylesheet primary={true}/>
+     <InlineStyle/>
+     
     </div>
   );
 }
