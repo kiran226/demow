@@ -1,6 +1,7 @@
 
 import './App.css';
-import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+// import ParentComponent from './components/ParentComponent';
 // import EventBind from './components/EventBind';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
      <h1>Lord Maha Ganapthi</h1>
 
      {/* <EventBind/> */}
-     <ParentComponent />
+     {/* <ParentComponent /> */}
+     <UserGreeting />
     </div>
   );
 }
