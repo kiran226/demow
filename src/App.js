@@ -1,7 +1,8 @@
 
 import './App.css';
-import InlineStyle from './components/InlineStyle';
-import Stylesheet from './components/Stylesheet';
+import Form from './components/Form';
+// import InlineStyle from './components/InlineStyle';
+// import Stylesheet from './components/Stylesheet';
 // import PersonList from './components/PersonList';
 // import NameList from './components/NameList';
 // import UserGreeting from './components/UserGreeting';
@@ -19,8 +20,9 @@ function App() {
      {/* <UserGreeting /> */}
      {/* <NameList/> */}
      {/* <PersonList /> */}
-     <Stylesheet primary={true}/>
-     <InlineStyle/>
+     {/* <Stylesheet primary={true}/> */}
+     {/* <InlineStyle/> */}
+     <Form />
      
     </div>
   );
