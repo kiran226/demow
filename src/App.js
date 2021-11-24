@@ -1,14 +1,15 @@
 
 import './App.css';
-import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+// import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
      <h1>Lord Maha Ganapthi</h1>
 
-     <EventBind/>
-     
+     {/* <EventBind/> */}
+     <ParentComponent />
     </div>
   );
 }
