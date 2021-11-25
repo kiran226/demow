@@ -1,6 +1,7 @@
 
 import './App.css';
-import Form from './components/Form';
+import ParentComp from './components/ParentComp';
+// import Form from './components/Form';
 // import InlineStyle from './components/InlineStyle';
 // import Stylesheet from './components/Stylesheet';
 // import PersonList from './components/PersonList';
@@ -22,7 +23,8 @@ function App() {
      {/* <PersonList /> */}
      {/* <Stylesheet primary={true}/> */}
      {/* <InlineStyle/> */}
-     <Form />
+     {/* <Form /> */}
+     <ParentComp />
      
     </div>
   );
