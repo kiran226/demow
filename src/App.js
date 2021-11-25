@@ -1,6 +1,7 @@
 
 import './App.css';
-import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+// import ParentComp from './components/ParentComp';
 // import Form from './components/Form';
 // import InlineStyle from './components/InlineStyle';
 // import Stylesheet from './components/Stylesheet';
@@ -24,7 +25,8 @@ function App() {
      {/* <Stylesheet primary={true}/> */}
      {/* <InlineStyle/> */}
      {/* <Form /> */}
-     <ParentComp />
+     {/* <ParentComp /> */}
+     <RefsDemo />
      
     </div>
   );
