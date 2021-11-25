@@ -1,6 +1,7 @@
 
 import './App.css';
-import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+// import RefsDemo from './components/RefsDemo';
 // import ParentComp from './components/ParentComp';
 // import Form from './components/Form';
 // import InlineStyle from './components/InlineStyle';
@@ -26,7 +27,8 @@ function App() {
      {/* <InlineStyle/> */}
      {/* <Form /> */}
      {/* <ParentComp /> */}
-     <RefsDemo />
+     {/* <RefsDemo /> */}
+     <FocusInput />
      
     </div>
   );
